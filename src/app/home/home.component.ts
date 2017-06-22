@@ -5,7 +5,7 @@ import {
 
 import { AppState } from '../app.service';
 import { Title } from './title';
-import { XLargeDirective } from './x-large';
+
 
 @Component({
   /**

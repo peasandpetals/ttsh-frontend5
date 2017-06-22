@@ -1,1 +1,57 @@
-$nav-button-color: #00838F;
+$primaryColor:   #0277bd;
+$accentColor:    #1de9b6;
+$bgColor:        #f8f8f8;
+$darkBgColor:    #263238;
+$lightBgColor:   #37474f;
+$lightTextColor: #f5f5f5;
+$darkTextColor:  #212121;
+$darkRed: #ab162b;
+$white: #ffffff;
+
+
+body {
+  background-color:$bgColor;
+}
+h3{
+  font-family:Calibri-400;
+  font-size:24px;
+}
+
+.red{
+  color:$darkRed;
+}
+
+p{
+  font-family:Calibri-100;
+  font-size:16px;
+
+}
+.padding-50{
+  padding:50px;
+}
+.padding-top-50{
+  padding-top:50px;
+}
+.padding-top-100{
+  padding-top:100px;
+}
+
+.bg-white{
+  background-color:$white;
+}
+button {
+    padding: 10px 20px;
+    box-shadow: none;
+    border: 0px;
+    border-style: none;
+    font-size:14px!important;
+    letter-spacing:0.5px!important;
+    font-family:Calibri-400!important;
+ }
+ .red-button{
+    background: $darkRed;
+    color:$white;
+ }
+ .full-width{
+ width:100%;
+ }
